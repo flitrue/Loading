@@ -10,4 +10,4 @@
 
 ### Veiw
 
-<img src="img/loading.gif" alt="loading"></img>
+<img src="./img/loading.gif" alt="loading"></img>
