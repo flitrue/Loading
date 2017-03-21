@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading</title>
+    <style>
+        #loading{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+            background-color: #000000;
+            opacity: 1;
+            z-index: 99999;
+        }
+        #loading .flitrue-loading{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        #loading .flitrue-loading div{
+            float: left;
+            border-color: white;
+            display: inline-block;
+            background-color: white;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin: 1px;
+            animation: loading-anm 0.7s infinite ease-in-out;
+            -webkit-animation: loading-anm 0.7s infinite ease-in-out;
+            -moz-animation: loading-anm 0.7s infinite ease-in-out;
+            -o-animation: loading-anm 0.7s infinite ease-in-out;
+        }
+        #loading .flitrue-loading .circle2{
+            -webkit-animation-delay: -0.6s;
+            animation-delay: -0.6s;
+        }
+        #loading .flitrue-loading .circle3{
+            -webkit-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+        }
+        #loading .flitrue-loading .circle4{
+            -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s;
+        }
+        @keyframes loading-anm {
+            0%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            20%{
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+            }
+            40%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+        }
+        @-webkit-keyframes loading-anm {
+            0%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            20%{
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+            }
+            40%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+        }
+        @-khtml-keyframes loading-anm {
+            0%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            20%{
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+            }
+            40%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+        }
+        @-o-keyframes loading-anm {
+            0%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            20%{
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+            }
+            40%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+        }
+        @-ms-keyframes  loading-anm{
+            0%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            20%{
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+            }
+            40%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+        }
+        @-moz-keyframes loading-anm {
+            0%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            20%{
+                transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+            }
+            40%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(-10px);
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="loading">
+    <div class="flitrue-loading">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+    </div>
+</div>
+<div style="height: 2000px;background-color: red;"></div>
+</body>
+</html>
